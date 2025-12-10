@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+:root {
+  --black: #000500;
+  --white: #FFFDF7;
+  --green: #058C42;
+  --hovergreen: #057d3b;
+  --lightblue: #2081C3;
+  --grey: #4e4d4d;
+}
+
+html, body, #root {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--white);
+  color: var(--black);
+  font-family: Poppins, sans-serif;
+}
